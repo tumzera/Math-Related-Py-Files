@@ -26,6 +26,6 @@ def Nbonacci(n,N):
 			l.insert(len(l), p )
 			l.sort()
 			i = i+1
-			ratio = l[len(l)-1]/l[len(l)-2]
+			ratio = float(l[len(l)-1]) / float(l[len(l)-2])
 		return l, ratio
 	
