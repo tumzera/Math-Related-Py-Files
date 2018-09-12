@@ -27,6 +27,5 @@ def Nbonacci(n,N):
 			l.sort()
 			i = i+1
 			ratio = l[len(l)-1]/l[len(l)-2]
-		return l
-		return ratio
+		return l, ratio
 	
